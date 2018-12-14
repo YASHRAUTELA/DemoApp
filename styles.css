@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~/node_modules/primeicons/primeicons.css';
+@import '~/node_modules/primeng/resources/themes/nova-light/theme.css';
+@import '~/node_modules/primeng/resources/primeng.min.css';
+
+
+/* footer styles */
+
+@media only screen and (min-width:768px){
+    .footer-fixed{
+        position: fixed;
+        bottom:0;
+        min-height:100px;
+        padding-right:55px;
+    }
+    
+    .border-left-right{
+        border-right: 1px solid white;
+        border-left:1px solid white;
+    }
+    
+    
+
+    .border-top{
+        margin:30px;
+        border-top:1px solid white
+    }
+
+    .border-top p{
+        margin-top:20px;
+    }
+
+    .tab{
+        margin-top:20px
+    }
+
+    ul{
+        margin-left: -30px;
+    }
+
+    
+}
+
+@media only screen and (max-width:767px){
+    .tab{
+        border-bottom:1px solid white;
+        margin: 0px 30px;
+    }
+
+    ul{
+        margin-left: -30px;
+    }
+
+    .footer-fixed{
+        padding-bottom:20px
+    }
+}
+
+.footer-fixed{
+    background-color:#263238;
+    color:white;
+}
+
+.social-share li a{
+    color: #CCC;
+    border: 1px solid #CCC;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-share li{
+    display: inline;
+}
